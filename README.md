@@ -16,16 +16,17 @@ move. Use this code as a reference for the code that you'll write to move the ba
 
 **Hints:**
 
-* Above the `update()` funciton, create variables to store the ball's x-position, y-position, x-velocity, and y-velocity
+* Above the `update()` function, create variables to store the ball's x-position, y-position, x-velocity, and y-velocity
+<!-- ***DONE*** -->
 * Each time `update()` is called
-    * increment the ball's x-position by the x-velocity
-    * increment the ball's y-position by the y-velocity
-    * update the ball's style so that its left edge is located at the x-position variable (in pixels)
-    * update the ball's style so that its top edge is located at the y-position variable (in pixels)
+    * increment the ball's x-position by the x-velocity <!-- ***DONE*** -->
+    * increment the ball's y-position by the y-velocity <!-- ***DONE*** -->
+    * update the ball's style so that its left edge is located at the x-position variable (in pixels) <!-- ***DONE*** -->
+    * update the ball's style so that its top edge is located at the y-position variable (in pixels) <!-- ***DONE*** -->
     * add a conditional to detect if the ball is touching the left or right edge of the window 
-        * if it is, multiply the ball's x-velocity by -1
+        * if it is, multiply the ball's x-velocity by -1 <!-- ***DONE*** -->
     * add a conditional to detect if the ball is touching the top or bottom edge of the window
-        * if it is, multiply the ball's y-velocity by -1
+        * if it is, multiply the ball's y-velocity by -1 <!-- ***DONE*** -->
 
 ## Task #2: Implementing a Stretch Goal
 
@@ -35,7 +36,7 @@ Your next task is to implement at least one stretch goal of your choice!
 
 * Make the ball bounce off the paddles
 * Make the ball NOT bounce off the left and right walls, instead when the ball hits the left or right wall,
-reset its position to somewhere in the middle
+reset its position to somewhere in the middle <!-- ***DONE*** -->
 * Make the computer paddle (the right paddle) track the ball's position and always deflect the ball
 * Make the left paddle's position controllable through keyboard presses. But how do you know when the user presses a key? You can read about that [here](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key)!
 
